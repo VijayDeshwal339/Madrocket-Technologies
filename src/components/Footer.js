@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import facebook from '../assests/Facebook.png';
+import twitter from '../assests/Twitter.png';
+import instagram from '../assests/instagram.png';
+import YouTube from '../assests/YouTube.png'
 
 const Footer = () => {
   return (
@@ -20,18 +24,18 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center">
-          <a href="https://facebook.com/springdale" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <img src="https://img.icons8.com/material-outlined/24/ffffff/facebook.png" alt="Facebook" />
-          </a>
-          <a href="https://twitter.com/springdale" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <img src="https://img.icons8.com/material-outlined/24/ffffff/twitter.png" alt="Twitter" />
-          </a>
-          <a href="https://instagram.com/springdale" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new.png" alt="Instagram" />
-          </a>
-          <a href="https://linkedin.com/company/springdale" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <img src="https://img.icons8.com/material-outlined/24/ffffff/linkedin.png" alt="LinkedIn" />
-          </a>
+          <Link to='/'  className="mx-2">
+            <img src={facebook} alt="Facebook" />
+          </Link>
+          <Link to='/'   className="mx-2">
+            <img src={twitter} alt="Twitter" />
+          </Link>
+          <Link to='/'   className="mx-2">
+            <img src={instagram} alt="Instagram" />
+          </Link>
+          <Link to='/'   className="mx-2">
+            <img src={YouTube} alt="youtube" />
+          </Link>
         </div>
       </div>
 

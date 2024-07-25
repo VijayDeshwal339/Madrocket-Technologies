@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
@@ -14,8 +16,16 @@ const ContactUsPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to server or email)
-    console.log('Form submitted:', formData);
+    
+    
+    toast.success('Our team will contact you soon!');
+
+    
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
   };
 
   return (
@@ -95,6 +105,9 @@ const ContactUsPage = () => {
           </div>
         </section>
       </main>
+
+      
+      <ToastContainer />
     </div>
   );
 };
