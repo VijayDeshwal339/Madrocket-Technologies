@@ -46,7 +46,7 @@ const ContactUsPage = () => {
               <p className="mb-4 text-gray-700">Phone: +1 (123) 456-7890</p>
               <p className="mb-4 text-gray-700">Email: info@springdale.edu</p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0198323053953!2d144.96315761550463!3d-37.81421777975161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43ef50a69d%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1618436349855!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55967.19520750356!2d77.15516608114156!3d28.75091870338029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01d4f896099f%3A0xd856071fa2f0c441!2sBurari%2C%20Delhi%2C%20110084!5e0!3m2!1sen!2sin!4v1721894099934!5m2!1sen!2sin" 
                 width="100%"
                 height="400"
                 allowFullScreen=""
